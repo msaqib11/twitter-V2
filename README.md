@@ -1,2 +1,2 @@
-# instagram-V2
-Next.js, Tailwind CSS, Firebase v9, NextAuth, Recoil
+# Twitter-V2
+Next.js, Sanity CMS, Typescript, SSR, Tailwind & NextAuth
