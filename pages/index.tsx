@@ -1,9 +1,19 @@
-import Head from "next/head";
-import Image from "next/image";
-import { Inter } from "next/font/google";
-import styles from "@/styles/Home.module.css";
-
+import Feed from "@/components/Feed";
+import Sidebar from "@/components/Sidebar";
+import Widgets from "@/components/Widgets";
+import  Head  from "next/head";
 
 export default function Home() {
-  return <></>;
+  return <div className="">
+    <Head>
+      <title>
+          Twitter 2.0
+      </title>
+    </Head>
+    <main>
+      <Sidebar/>
+      <Feed/>
+      <Widgets/>
+    </main>
+  </div>;
 }
