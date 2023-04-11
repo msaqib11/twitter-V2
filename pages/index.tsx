@@ -7,7 +7,7 @@ import { GetServerSideProps } from "next";
 import  Head  from "next/head";
 
 interface Props {
-  tweets : Tweet
+  tweets : Tweet[]
 }
 
 export default function Home({tweets}:Props) {
@@ -19,7 +19,7 @@ export default function Home({tweets}:Props) {
     </Head>
     <main className="grid grid-cols-9">
       <Sidebar/>
-      <Feed/>
+      <Feed tweets={tweets}/>
       <Widgets/>
     </main>
   </div>;
