@@ -1,3 +1,7 @@
+
+![Screenshot from 2023-06-16 01-01-37](https://github.com/msaqib11/twitter-V2/assets/79469984/f4a738ad-f27a-489c-b7af-dc8d9ad76aec)
+
+
 # Twitter-v2
 
 Twitter-v2 is a Twitter clone built using Next.js, Tailwind CSS, and TypeScript. It allows users to post tweets, like and retweet posts, follow other users, and view their own and others' profiles.
